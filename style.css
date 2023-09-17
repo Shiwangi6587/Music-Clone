@@ -1,1 +1,125 @@
-j
+  /* 
+  use of google font to change the design of font 
+  
+  USE font awesometo take uniwue font for website 
+  
+  
+  */
+
+
+
+
+/* for font  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Playfair+Display:ital@1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Italianno&family=Kanit:ital,wght@0,500;1,400&family=Pathway+Gothic+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@0,500;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@0,500;1,400&family=Pathway+Gothic+One&display=swap');
+body{
+    background-color: pink;
+    
+    
+}
+ /* margi and padding of website  */
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav{
+    font-family: 'Bungee Spice', cursive; 
+}
+nav ul{
+    display: flex;
+     height: 67px;
+      background-color: black;
+}
+
+.brand img{
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 50px;
+  border-radius: 5px;
+}
+
+.brand{
+    display: flex;
+    align-items:center; 
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+ .text{
+    display: flex;
+    padding : 0 40px;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Playfair Display', serif;
+    color: rgb(182, 104, 117);
+    align-items: center;
+ }
+
+ .arjit{
+  background: 
+  linear-gradient(rgb(109, 73, 162), rgb(50, 50, 193) ,rgb(23, 195, 155));
+  height: 9vh;
+  width: 45vh;
+  border-radius: 12px;
+  
+ }
+ .container{
+    font-size: xx-large;
+    font-family: 'Bungee Spice', cursive;
+font-family: 'Italianno', cursive;
+min-height: 70vh;
+display: flex;
+width:70% ;
+border-radius: 12px;
+padding: 34px;
+margin: 23px auto;
+color: rgb(0, 0, 0);
+background: 
+linear-gradient(rgb(0, 128, 255),rgb(131, 75, 84),rgb(18, 8, 8));
+}
+
+/*  for bottom design  */
+.bottom{
+ position: sticky; 
+ height: 140px ;
+ background-color: black;
+ color: rgb(177, 170, 208);
+  bottom: 0%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+     flex-direction: column;
+      
+}
+
+.icon{
+    margin-top: 10px ;
+    
+}
+
+#myprogress{
+ width: 80vw;
+ /* text-align: center; */
+}
+
+
+
+
+
+.SongItem{
+height: 60px;
+display: flex;
+background-color: rgb(153, 182, 208);
+width: 90%;
+height: 40px;
+color: rgb(0, 0, 0);
+/* margin-left: 134px; */
+justify-content: space-between;
+margin: 12px 0;
+
+
+}
+
